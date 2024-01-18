@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Letter Sign-Up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="main-container" id = "mainDiv">
+      <div class="content">
+        <h1>Stay Updated!</h1>
+        <p class="join">
+          Join 60,000+ product managers receiving monthly
+          updates on: 
+        </p>
+        
+        <div class="updates-container">
+          <div class="updates">
+            <img src="./assets/images/icon-list.svg">
+            <p>Product discovery and building what matters</p>
+          </div>
+          <div class="updates">
+            <img src="./assets/images/icon-list.svg">
+            <p>Measuring to ensure updates are a success</p>
+          </div>
+          <div class="updates">
+            <img src="./assets/images/icon-list.svg">
+            <p>And much more!</p>
+          </div>
+        </div>
+
+        <div class="input-container">
+          <p class="email-p">Email Address</p>
+          <input type="text" class="txtbox" id="txtbox1" placeholder="email@company.com">
+          <button id="btn1">Subscribe to monthly newsletter</button>
+        </div>
+      </div>
+
+      <div class="illustration-container">
+        <img src="./assets/images/illustration-sign-up-desktop.svg" class="illustration" id="mainimg">
+      </div>
+
+    </div>
+
+    <div class="notice" id="notice">
+      <div>
+          <image src="./assets/images/icon-success.svg" class>
+          <h2>Thanks for Subscribing!</h2>
+          <p>A confirmation email has been sent to <span id ="span"></span>.
+          Please open it and click the button inside the confirm
+          your subsciption.
+          </p>
+      </div>
+      <button id="btn2">
+        Dissmiss message
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
