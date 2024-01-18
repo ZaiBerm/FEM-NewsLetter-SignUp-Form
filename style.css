@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
