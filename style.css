@@ -1,4 +1,6 @@
 body {
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
   background-color: hsl(235, 18%, 26%);
   color: hsl(234, 29%, 20%);
   height: 100dvh;
